@@ -39,6 +39,50 @@
      -->
   </head>
   <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            alt="Digitalmedia home"
+            width="205"
+            height="40"
+            class="logo__img"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar__list">
+            <li><a href="#" class="navbar__link">How it Works</a></li>
+            <li><a href="#" class="navbar__link">Our Work</a></li>
+            <li><a href="#" class="navbar__link">Pricing</a></li>
+            <li><a href="#" class="navbar__link">About Us</a></li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn--secondary">Try it Now</a>
+
+        <button
+          class="nav__open-btn"
+          aria-label="toggle menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon
+            name="menu-outline"
+            aria-hidden="true"
+            class="menu-icon"
+          ></ion-icon>
+          <ion-icon
+            name="close-outline"
+            aria-hidden="true"
+            class="close-icon"
+          ></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay></div>
+      </div>
+    </header>
     <!-- 
       - Custom JS Files
      -->
